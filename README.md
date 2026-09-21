@@ -1,4 +1,28 @@
 # project
+"""
+GRIET AI/ML 2026 - Day 1
+Digital Behaviour Analysis - Dataset Generator
+
+WHAT THIS DOES
+--------------
+Creates a file called digital_behaviour.csv on your laptop.
+
+Everyone in the class gets THE SAME COLUMNS.
+Everyone in the class gets DIFFERENT NUMBERS.
+
+So the steps are identical for everyone,
+but the findings are genuinely yours.
+
+HOW TO RUN
+----------
+    python generate_digital_data.py
+
+NOTE
+----
+This is simulated data created for learning.
+It is not real data from any app or service.
+"""
+
 import csv
 import random
 from datetime import datetime, timedelta
